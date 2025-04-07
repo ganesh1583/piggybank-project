@@ -44,11 +44,4 @@ MetaMask Setup
 	Switch to Sepolia Testnet
 	Get test ETH from a faucet
 
-# .env.example
-# Replace with your own from Alchemy/Infura/QuickNode
-SEPOLIA_RPC_URL=https://eth-sepolia.g.alchemy.com/v2/your-api-key
-
-# Replace with your wallet private key (NEVER commit real .env!)
-PRIVATE_KEY=your-private-key-here
-
 (also make changed in your hardhat.config.js related to network)
